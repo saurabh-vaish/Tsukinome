@@ -2,10 +2,15 @@ package com.srv.tsukinome;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.config.server.EnableConfigServer;
+import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 
 @SpringBootApplication
-@EnableConfigServer
+//@EnableCircuitBreaker
+//@EnableHystrix
+//@EnableZuulServer
+//@EnableLoadTimeWeaving
+// all these not need all are inside @EnableZuulProxy
+@EnableZuulProxy                    /// to enable zuul serve -- internally having
 public class TsukinomeApplication {
 
     public static void main(String[] args) {
