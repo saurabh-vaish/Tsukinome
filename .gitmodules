@@ -1,0 +1,3 @@
+[submodule "TsukinomeConfigServer"]
+	path = TsukinomeConfigServer
+	url = https://github.com/saurabhvaish93/TsukinomeConfigServer.git
