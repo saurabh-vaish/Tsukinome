@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/EurekaServer/pom.xml" />
         <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
         <option value="$PROJECT_DIR$/ZuulServer/pom.xml" />
+        <option value="$PROJECT_DIR$/SecurityWithJwt/pom.xml" />
       </list>
     </option>
   </component>

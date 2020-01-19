@@ -1,10 +1,10 @@
-package com.srv.tsukinome;
+package com.srv.security;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TsukinomeApplicationTests {
+class SecurityApplicationTests {
 
     @Test
     void contextLoads() {

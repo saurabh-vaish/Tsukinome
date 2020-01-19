@@ -11,10 +11,10 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 //@EnableLoadTimeWeaving
 // all these not need all are inside @EnableZuulProxy
 @EnableZuulProxy                    /// to enable zuul serve -- internally having
-public class TsukinomeApplication {
+public class ZuulServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TsukinomeApplication.class, args);
+        SpringApplication.run(ZuulServerApplication.class, args);
     }
 
 }

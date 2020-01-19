@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SecurityWithJwt" />
         <module name="ZuulServer" />
         <module name="ConfigServer" />
         <module name="EurekaServer" />
@@ -14,6 +15,7 @@
     <bytecodeTargetLevel>
       <module name="ConfigServer" target="1.8" />
       <module name="EurekaServer" target="1.8" />
+      <module name="SecurityWithJwt" target="1.8" />
       <module name="ZuulServer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ConfigServer" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
+      <module name="SecurityWithJwt" options="-parameters" />
       <module name="ZuulServer" options="-parameters" />
     </option>
   </component>
